@@ -1,0 +1,12 @@
+Universe = vanilla
+Executable=./train.sh
+
+Arguments  = 1000
+Log    = ./log.log
+Output = ./log.out
+Error  = ./log.err
+request_CPUs = 1
+request_GPUs = 2
++SJTU_GPUModel = "A100_80G"
+should_transfer_files = NO
+Queue
